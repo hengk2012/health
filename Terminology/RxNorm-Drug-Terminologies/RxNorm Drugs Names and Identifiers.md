@@ -10,12 +10,12 @@ Concepts are collections of synonyms at a given level of abstraction. Each conce
 
 Each row in this file represents a single atom, and the RXAtom_AUI value is unique for each row. Essentially, the row is the atom. Because a given concept may include multiple atoms, there may be multiple rows with a given RXConcept_CUI.
 
-RxNorm is creating duplicates of source asserted atoms, which carry multiple meanings. When an atom is duplicated, the original source atom is considered to be a 'Base' atom. The duplicate atoms' strings are created by appending '_#N' to the Base atom string where 'N' is a number from 1 to N number of duplicates for this base atom. The duplicate atom's âTerm_Type_in_Source_TTYâ will be created by prepending 'MTH_RXN_' to the base atom's term type.
+RxNorm is creating duplicates of source asserted atoms, which carry multiple meanings. When an atom is duplicated, the original source atom is considered to be a 'Base' atom. The duplicate atoms' strings are created by appending '_#N' to the Base atom string where 'N' is a number from 1 to N number of duplicates for this base atom. The duplicate atom's ‘Term_Type_in_Source_TTY’ will be created by prepending 'MTH_RXN_' to the base atom's term type.
 
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-04-04
-- Version: 2016.04.04
+- Date Modified: 2016-03-07
+- Version: 2016.03.07
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
@@ -112,7 +112,7 @@ RxNorm is creating duplicates of source asserted atoms, which carry multiple mea
   
 - Term_Type_In_Source_TTY
   - Term type in source  
-   Refer âRxNorm Term Types for Normalized Namesâ for RxNorm source
+   Refer “RxNorm Term Types for Normalized Names” for RxNorm source
   - Type: String
   - Required
   - Maximum Length : 20

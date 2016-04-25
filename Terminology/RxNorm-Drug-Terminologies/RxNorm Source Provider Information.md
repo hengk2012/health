@@ -11,8 +11,8 @@ RxNorm reflects and preserves the meanings, drug names, attributes, and relation
 
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-04-04
-- Version: 2016.04.04
+- Date Modified: 2016-03-07
+- Version: 2016.03.07
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
@@ -107,7 +107,7 @@ Sources with SRL=0 follow the general terms of the license. All other values in 
   - Level: Ordinal
   
 - Term_Frequency
-  - The number of terms for this source in âRxNorm Drugs Names and Identifiersâ   
+  - The number of terms for this source in “RxNorm Drugs Names and Identifiers”   
   (not implemented yet)
   - Type: Integer
   - Level: Ratio
