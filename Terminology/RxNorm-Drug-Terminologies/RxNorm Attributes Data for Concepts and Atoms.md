@@ -7,16 +7,16 @@ This includes RXNORM provided attributes, such as normalized 11-digit NDCs, UNII
 ## Description
 RxNorm provides normalized names for clinical drugs and links its names to many of the drug vocabularies commonly used in pharmacy management and drug interaction software, including those of First Databank, Micromedex, MediSpan, Gold Standard Drug Database, and Multum. By providing links between these vocabularies, RxNorm can mediate messages between systems not using the same software and vocabulary.
 
-This dataset associates attributes data with RXAtom_AUI_IDs and  RXConcept_CUI_IDs. The corresponding drug names for these RXAtom_AUI_IDs and RXConcept_CUI_IDs are found in âRxNorm Drugs Names and Identifiersâ dataset.  
+This dataset associates attributes data with RXAtom_AUI_IDs and  RXConcept_CUI_IDs. The corresponding drug names for these RXAtom_AUI_IDs and RXConcept_CUI_IDs are found in “RxNorm Drugs Names and Identifiers” dataset.  
 
 A base atom can be identified by the existence of an attribute, where the Attribute_Name_ATN='AMBIGUITY_FLAG' and the Attribute_Value_ATV='Base'. Similarly, the duplicate atoms are identified with Attribute_Name_ATN ='AMBIGUITY_FLAG' and Attribute_Value_ATV ='Duplicate'. This attribute will carry the Source_Abbreviation=RXNORM.  
 
-The quantity factor is stored as an attribute as the value of the Attribute_Name_ATN ='RXN_QUANTITY' with Source_Abbreviation=RXNORM. This quantity factor consists of a number followed by a unit measure. The number might represent a strength, a unit of time, or a quantity of dosages depending upon the drugâs dosage form in use at the time.  
+The quantity factor is stored as an attribute as the value of the Attribute_Name_ATN ='RXN_QUANTITY' with Source_Abbreviation=RXNORM. This quantity factor consists of a number followed by a unit measure. The number might represent a strength, a unit of time, or a quantity of dosages depending upon the drug’s dosage form in use at the time.  
 
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-04-04
-- Version: 2016.04.04
+- Date Modified: 2016-03-07
+- Version: 2016.03.07
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
@@ -35,7 +35,7 @@ The quantity factor is stored as an attribute as the value of the Attribute_Name
  - All attributes for a specific concept or atom
  - Attribute name value pairs with in a specific source provider
  - Suppressed and non-suppressed attributes analytics
- - The normalized NDCs provided by NLM (Source_Abbreviation='RXNORM' and Attribute_Name_ATN=âNDCâ). These normalized NDCs follows the 11 digit, no dashes HIPAA format
+ - The normalized NDCs provided by NLM (Source_Abbreviation='RXNORM' and Attribute_Name_ATN=’NDC’). These normalized NDCs follows the 11 digit, no dashes HIPAA format
 
 ## Schema
 - RXConcept_CUI
@@ -61,7 +61,7 @@ The quantity factor is stored as an attribute as the value of the Attribute_Name
   - Maximum Length : 8
   
 - Source_Type_STYPE
-  - The name of the column in âRxNorm Drugs Names and Identifiersâ or âRxNorm Relationships Between Concepts and Atomsâ that contains the identifier to which the attribute is attached, e.g., <name>_CUI, <name>_AUI.
+  - The name of the column in “RxNorm Drugs Names and Identifiers” or “RxNorm Relationships Between Concepts and Atoms“ that contains the identifier to which the attribute is attached, e.g., <name>_CUI, <name>_AUI.
   - Type: String
   - Maximum Length : 50 
   
@@ -85,7 +85,7 @@ These are the FDA generated unique ingredient identifiers (UNIIs) for Source_Abb
   - Maximum Length : 50
   
 - Attribute_Name_ATN
-  - Attribute name. Possible values appear in âRxNorm Data Elements and Attributes Namesâ dataset 
+  - Attribute name. Possible values appear in “RxNorm Data Elements and Attributes Names” dataset 
   - Type: String
   - Required
   - Maximum Length : 1000
@@ -97,7 +97,7 @@ These are the FDA generated unique ingredient identifiers (UNIIs) for Source_Abb
   - Maximum Length : 20
   
 - Attribute_Value_ATV
-  - Attribute value described under specific attribute name. A few attribute values exceed 1,000 characters. Many of the abbreviations used in attribute values are explained in âRxNorm Data Elements and Attributes Namesâ dataset 
+  - Attribute value described under specific attribute name. A few attribute values exceed 1,000 characters. Many of the abbreviations used in attribute values are explained in “RxNorm Data Elements and Attributes Names” dataset 
   - Type: String
   - Maximum Length : 4000
 
