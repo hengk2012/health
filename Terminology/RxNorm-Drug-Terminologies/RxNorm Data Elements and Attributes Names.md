@@ -10,8 +10,8 @@ There is exactly one row in this table for each allowed value of selected data e
 
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-03-07
-- Version: 2016.03.07
+- Date Modified: 2016-04-04
+- Version: 2016.04.04
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
