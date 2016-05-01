@@ -6,12 +6,12 @@ It contains the semantic types, or broad subject categories, assigned to each co
 ## Description
 RxNorm provides normalized names for clinical drugs and links its names to many of the drug vocabularies commonly used in pharmacy management and drug interaction software, including those of First Databank, Micromedex, MediSpan, Gold Standard Drug Database, and Multum. By providing links between these vocabularies, RxNorm can mediate messages between systems not using the same software and vocabulary.
 
-All RxNorm concepts have at least one entry in this file. Many have more than one entry. Eighty percent of RxNorm drug concepts have the semantic type 'Clinical Drug'. This dataset associates semantic type data with RXConcept_CUI_IDs. The corresponding drug names for these RXConcept_CUI_IDs are found in “RxNorm Drugs Names and Identifiers” dataset.
+All RxNorm concepts have at least one entry in this file. Many have more than one entry. Eighty percent of RxNorm drug concepts have the semantic type 'Clinical Drug'. This dataset associates semantic type data with RXConcept_CUI_IDs. The corresponding drug names for these RXConcept_CUI_IDs are found in âRxNorm Drugs Names and Identifiersâ dataset.
 
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-03-07
-- Version: 2016.03.07
+- Date Modified: 2016-04-04
+- Version: 2016.04.04
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
