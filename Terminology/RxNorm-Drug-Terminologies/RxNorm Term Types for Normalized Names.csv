@@ -1,1 +1,20 @@
-
+Code_TTY,Name,Description
+IN,Ingredient,A compound or moiety that gives the drug its distinctive clinical properties. Ingredients generally use the United States Adopted Name (USAN).
+PIN,Precise Ingredient,A specified form of the ingredient that may or may not be clinically active. Most precise ingredients are salt or isomer forms.
+MIN,Multiple Ingredients,"Two or more ingredients appearing together in a single drug preparation, created from SCDF. In rare cases when IN/PIN or PIN/PIN combinations of the same base ingredient exist, created from SCD."
+DF,Dose Form,Dose Forms
+DFG,Dose Form Group,Dose Form Groups
+SCDC,Semantic Clinical Drug Component,Ingredient + Strength
+SCDF,Semantic Clinical Drug Form,Ingredient + Dose Form
+SCDG,Semantic Clinical Dose Form Group,Ingredient + Dose Form Group
+SCD,Semantic Clinical Drug,Ingredient + Strength + Dose Form
+BN,Brand Name,A proprietary name for a family of products containing a specific active ingredient.
+SBDC,Semantic Branded Drug Component,Ingredient + Strength + Brand Name
+SBDF,Semantic Branded Drug Form,Ingredient + Dose Form + Brand Name
+SBDG,Semantic Branded Dose Form Group,Brand Name + Dose Form Group
+SBD,Semantic Branded Drug,Ingredient + Strength + Dose Form + Brand Name
+PSN,Prescribable Name,"Synonym of another TTY, given for clarity and for display purposes in electronic prescribing applications. Only one PSN per concept."
+SY,Synonym,"Synonym of another TTY, given for clarity."
+TMSY,Tall Man Lettering Synonym,"Tall Man Lettering synonym of another TTY, given to distinguish between commonly confused drugs."
+BPCK,Brand Name Pack,{# (Ingredient Strength Dose Form) / # (Ingredient Strength Dose Form)} Pack [Brand Name]
+GPCK,Generic Pack,{# (Ingredient + Strength + Dose Form) / # (Ingredient + Strength + Dose Form)} Pack
