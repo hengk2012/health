@@ -12,7 +12,7 @@ The subset includes only the active RxNorm normalized names, codes (RxCUIs), att
  
 RXNORM provided relationships exist between atoms and between concepts, while source-provided relationships only exist between atoms from that source.  
  
-Relationships in this dataset connect RXAtom_AUI_IDs or RXConcept_CUI_IDs. The corresponding drug names for these RXAtom_AUI_IDs and RXConcept_CUI_IDs are found in âRxNorm Drugs Names and Identifiersâ dataset.  
+Relationships in this dataset connect RXAtom_AUI_IDs or RXConcept_CUI_IDs. The corresponding drug names for these RXAtom_AUI_IDs and RXConcept_CUI_IDs are found in “RxNorm Drugs Names and Identifiers” dataset.  
  
 For asymmetrical relationships there is one row for each direction of the relationship. 
  
@@ -24,8 +24,8 @@ Specified (with quantity factor) and unspecified (without quantity factor) versi
  
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-04-04
-- Version: 2016.04.04
+- Date Modified: 2016-03-07
+- Version: 2016.03.07
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
@@ -55,7 +55,7 @@ Specified (with quantity factor) and unspecified (without quantity factor) versi
   - Maximum Length : 8
   
 - Relation_Source1_Type_STYPE1
-  - The name of the column in âRxNorm Drugs Names and Identifiersâ that contains the identifier used for the first concept or first atom in source of the relationship (e.g., 'AUI' or 'CUI').
+  - The name of the column in “RxNorm Drugs Names and Identifiers” that contains the identifier used for the first concept or first atom in source of the relationship (e.g., 'AUI' or 'CUI').
   - Type: String
   - Maximum Length : 50 
   
@@ -75,7 +75,7 @@ Specified (with quantity factor) and unspecified (without quantity factor) versi
   - Maximum Length : 8
   
 - Relation_Source2_Type_STYPE2
-  - The name of the column in âRxNorm Drugs Names and Identifiersâ that contains the identifier used for the first concept or first atom in source of the relationship (e.g., 'AUI' or 'CUI').
+  - The name of the column in “RxNorm Drugs Names and Identifiers” that contains the identifier used for the first concept or first atom in source of the relationship (e.g., 'AUI' or 'CUI').
   - Type: String
   - Maximum Length : 50 
   

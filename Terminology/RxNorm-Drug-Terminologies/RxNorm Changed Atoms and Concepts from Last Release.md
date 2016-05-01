@@ -6,11 +6,11 @@ This dataset contains information on atoms that have changed concepts from the p
 ## Description
 RxNorm provides normalized names for clinical drugs and links its names to many of the drug vocabularies commonly used in pharmacy management and drug interaction software, including those of First Databank, Micromedex, MediSpan, Gold Standard Drug Database, and Multum. By providing links between these vocabularies, RxNorm can mediate messages between systems not using the same software and vocabulary.
 
-The dataset provides information about changes to the concept_id (RXCUI) for atoms in RxNorm from release to release. For source asserted atoms, all data fields will be populated. For RXCUI changes to RxNorm forms that have been archived, only the Source_Abbreviation, Old_RXConcept_CUI, and Old_RXConcept_CUI will be provided. Full information about RxNorm forms that have been archived can be found in the âRxNorm Archived Atoms Informationâ dataset.
+The dataset provides information about changes to the concept_id (RXCUI) for atoms in RxNorm from release to release. For source asserted atoms, all data fields will be populated. For RXCUI changes to RxNorm forms that have been archived, only the Source_Abbreviation, Old_RXConcept_CUI, and Old_RXConcept_CUI will be provided. Full information about RxNorm forms that have been archived can be found in the “RxNorm Archived Atoms Information” dataset.
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-04-04
-- Version: 2016.04.04
+- Date Modified: 2016-03-07
+- Version: 2016.03.07
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
@@ -45,7 +45,7 @@ These are the FDA generated unique ingredient identifiers (UNIIs) for Source_Abb
 
 - Term_Type_In_Source_TTY
   - Term type in source  
-   Refer âRxNorm Term Types for Normalized Namesâ for RxNorm source
+   Refer “RxNorm Term Types for Normalized Names” for RxNorm source
   - Type: String
   - Maximum Length : 20
   - Reference: RxNorm Term Types for Normalized Names

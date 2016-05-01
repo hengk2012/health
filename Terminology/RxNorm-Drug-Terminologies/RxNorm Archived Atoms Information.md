@@ -1,7 +1,7 @@
 # RxNorm Archived Atoms Information 
 
 ## Summary
-This dataset includes history information about RxNorm atoms. It contains information about SAB=RXNORM atoms that are no longer in âRxNorm Drugs Names and Identifiersâ.
+This dataset includes history information about RxNorm atoms. It contains information about SAB=RXNORM atoms that are no longer in “RxNorm Drugs Names and Identifiers”.
 
 ## Description
 RxNorm provides normalized names for clinical drugs and links its names to many of the drug vocabularies commonly used in pharmacy management and drug interaction software, including those of First Databank, Micromedex, MediSpan, Gold Standard Drug Database, and Multum. By providing links between these vocabularies, RxNorm can mediate messages between systems not using the same software and vocabulary.
@@ -10,8 +10,8 @@ The dataset contains data about RxNorm Source provider (atoms) that are no longe
 
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-04-04
-- Version: 2016.04.04
+- Date Modified: 2016-03-07
+- Version: 2016.03.07
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
@@ -107,7 +107,7 @@ These are the FDA generated unique ingredient identifiers (UNIIs) for Source_Abb
  
 - Term_Type_In_Source_TTY
   - Term type in source  
-   Refer âRxNorm Term Types for Normalized Namesâ for RxNorm source
+   Refer “RxNorm Term Types for Normalized Names” for RxNorm source
   - Type: String
   - Maximum Length : 20
   - Reference: RxNorm Term Types for Normalized Names 
