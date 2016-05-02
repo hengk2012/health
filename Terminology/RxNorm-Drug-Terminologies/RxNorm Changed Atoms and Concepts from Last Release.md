@@ -9,8 +9,8 @@ RxNorm provides normalized names for clinical drugs and links its names to many 
 The dataset provides information about changes to the concept_id (RXCUI) for atoms in RxNorm from release to release. For source asserted atoms, all data fields will be populated. For RXCUI changes to RxNorm forms that have been archived, only the Source_Abbreviation, Old_RXConcept_CUI, and Old_RXConcept_CUI will be provided. Full information about RxNorm forms that have been archived can be found in the “RxNorm Archived Atoms Information” dataset.
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-03-07
-- Version: 2016.03.07
+- Date Modified: 2016-05-02
+- Version: 2016.05.02
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
