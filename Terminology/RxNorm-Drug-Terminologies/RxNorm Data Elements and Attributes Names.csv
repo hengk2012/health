@@ -5,7 +5,6 @@ ATN,ACCEPTED_THERAPEUTIC_USE_FOR,expanded_form,Accepted therapeutic use for
 ATN,ACCESSION_NO,expanded_form,Accession number
 ATN,ACTIVE,expanded_form,Active
 ATN,ADDED_MEANING,expanded_form,Additional descriptive information
-ATN,ADDITIONAL_GUIDELINE,expanded_form,Additional explanatory text that is applicable to a concept (code/heading/subheading).
 ATN,ADDON_CODE,expanded_form,"A ""T"" in this field indicates that it is an ""Add-on"" code, i.e. it is commonly carried out in addition to the primary procedure performed"
 ATN,ADJACENT,expanded_form,Adjacent
 ATN,ALT_SORT_CODE,expanded_form,Alt sort code
@@ -108,7 +107,6 @@ ATN,DDFA,expanded_form,Drug Doseform Abbreviation (e.g. SOLN)
 ATN,DDF,expanded_form,Drug Doseform (e.g. chewable tablet)
 ATN,DEFAULT_LANGUAGECODE,expanded_form,Default language code value
 ATN,DEFAULT_MODULE_ID,expanded_form,Default module ID
-ATN,DEFCHARACTERISTICS,expanded_form,Defining characteristics
 ATN,DEFINITION,expanded_form,Description of the VANDF drug class
 ATN,DEFINITION_STATUS_ID,expanded_form,Definition status ID
 ATN,DESCRIPTIONFORMAT,expanded_form,Description Format
@@ -293,6 +291,11 @@ ATN,ICNP_TYPE,expanded_form,"ICNP Type Codes: Defines if the code is a Diagnosis
 ATN,ICN,expanded_form,ICD Note - instruction providing additional coding information.
 ATN,ICPCCODE,expanded_form,ICPC Code
 ATN,IDNR,expanded_form,Original ID number for source file
+ATN,IEEE_CF_CODE10,expanded_form,IEEE CF Code10
+ATN,IEEE_DESCRIPTION,expanded_form,IEEE description
+ATN,IEEE_DIM,expanded_form,IEEE DIM
+ATN,IEEE_REFID,expanded_form,IEEE REF ID
+ATN,IEEE_UOM_UCUM,expanded_form,IEEE UOM UCUM
 ATN,II,expanded_form,"MeSH Indexing Information - for MeSH chemical terms (Term Type=NM), MeSH headings that may be relevant to articles that are also assigned the NM term."
 ATN,IMPRINT_CODE,expanded_form,Imprint Code
 ATN,INACTIVATION_INDICATOR,expanded_form,Inactivation indicator
@@ -420,6 +423,7 @@ ATN,NEUROLEX_ID,expanded_form,Neurolex ID
 ATN,NFI,expanded_form,"National formulary indicator - ""YES"" or ""NO"" indicating whether a drug is in the VA's National Formulary"
 ATN,NF_INACTIVATE,expanded_form,National Formulary Inactivation Date - the date a drug was removed from the VA's National Formulary
 ATN,NF_NAME,expanded_form,National Formulary Name
+ATN,NICHD_HIERARCHY_TERM,expanded_form,NICHD Hierarchy Term
 ATN,NOTE,expanded_form,Note
 ATN,NSC_CODE,expanded_form,NSC Code
 ATN,NSR,expanded_form,"Neuronames Species Restriction - indication that a Neuronames concept applies to humans, macaques, primates, rats, etc. Most Neuronames concepts have no species restriction."
@@ -439,6 +443,7 @@ ATN,OTC_MONOGRAPH_NOT_FINAL,expanded_form,FDA Structured Product Label OTC monog
 ATN,PANEL_TYPE,expanded_form,Panel type
 ATN,PARENT_CLASS,expanded_form,VA Internal entry number of the parent class
 ATN,PARTITION,expanded_form,Partition
+ATN,PART_SEQ_ORDER,expanded_form,Part sequence order
 ATN,PA,expanded_form,"Pharmacologic Action of MeSH main headings (MH) for drugs and supplementary concept names (NM). The information in this element is also represented by an ""isa"" relationship between the MH or NM concept and the MeSH concept name for the class of drugs with a particular pharmacologic action."
 ATN,PCL,expanded_form,"Pharmacy Practice Activity Classification (PPAC) Category - all terms are assigned to one of five categories, which connote their hierarchy."
 ATN,PDC,expanded_form,"SPN Product Device Class (level of CDRH regulation: class 1, 2, or 3). "
@@ -463,19 +468,20 @@ ATN,PUBMEDID_PRIMARY_REFERENCE,expanded_form,PubMedID Primary Reference
 ATN,PXC,expanded_form,"PDQ Protocol Exclusion Criteria - terms with type ""exclusion criteria,"" which may be indexed on protocol records to identify conditions that exclude a patient from eligibility. "
 ATN,PYR,expanded_form,PsychInfo year designation
 ATN,RADLEX_ID,expanded_form,RadLex ID
+ATN,RADLEX_PLAYBOOK_LONG_NAME,expanded_form,RadLex Playbook long name
+ATN,RADLEX_PREF_NAME,expanded_form,RadLex preferred name
 ATN,RANK,expanded_form,NCBI Rank (e.g. RANK[NCBI]species)
 ATN,RECORD_TYPE,expanded_form,Record type
 ATN,REFSEQ_ID,expanded_form,RefSeq ID
 ATN,REFSET_PATTERN,expanded_form,Refset pattern
 ATN,REF,expanded_form,References or citations related to a given atom or concept.
-ATN,RELATEDFACTORS,expanded_form,Related factors
 ATN,REMARKS,expanded_form,Specific coding instructions
 ATN,REPLACED_BY_SNOMED_CID,expanded_form,Current version SNOMEDCT concept id this concept is replaced by
 ATN,REPORTABLE,expanded_form,Indicates whether a code is reportable
 ATN,RETIRED_CODE,expanded_form,Previous/Retired Code
-ATN,RID,expanded_form,"Read Codes Term_id - identifier assigned to a Read term, used in referring to the term in the Read file structure, and may be used in clinical information systems. "
-ATN,RISKFACTORS,expanded_form,Risk factors
+ATN,RID,expanded_form,"Read Codes Term_id - identifier assigned to a Read term, used in referring to the term in the Read file structure, and may be used in clinical information systems."
 ATN,RN,expanded_form,"Registry Number - series of numbers and hyphens (any leading zeros in an RN are dropped) or a series of numbers and periods, preceded by EC"
+ATN,RPID,expanded_form,RadLex Playbook ID
 ATN,RR,expanded_form,"The Chemical Abstracts Registry numbers for salts, optical isomers, or isotope-labeled versions of the concept followed by the relationship of this RR to the RN (in parentheses.) Applies to chemicals only. These numbers can be used as links to information in a number of chemical and toxicological databases."
 ATN,RXAUI,expanded_form,RxNorm atom identifier for the atom it is connected to
 ATN,RXCUI,expanded_form,RxNorm concept identifier for the atom this is connected to
@@ -533,6 +539,7 @@ ATN,STATUS_REASON,expanded_form,Classification of the reason for concept status 
 ATN,STATUS_TEXT,expanded_form,Explanation of concept status in narrative text in LOINC
 ATN,STRENGTH,expanded_form,NDF strength
 ATN,ST,expanded_form,"Concept Attributes Status - valid values: R Reviewed, U Unreviewed "
+ATN,SUBCATEGORY,expanded_form,Subcategory
 ATN,SUBSEQUENT_TEXT_PROMPT,expanded_form,Subsequent text prompt
 ATN,SUBSET_MEMBER,expanded_form,Subset member
 ATN,SWISS_PROT,expanded_form,Swiss Prot
@@ -982,6 +989,8 @@ RELA,default_mapped_from,expanded_form,Default mapped from
 RELA,default_mapped_from,rela_inverse,default_mapped_to
 RELA,default_mapped_to,expanded_form,Default mapped to
 RELA,default_mapped_to,rela_inverse,default_mapped_from
+RELA,defining_characteristic_of,expanded_form,Defining characteristic of
+RELA,defining_characteristic_of,rela_inverse,has_defining_characteristic
 RELA,definitional_manifestation_of,expanded_form,Definitional manifestation of
 RELA,definitional_manifestation_of,rela_inverse,has_definitional_manifestation
 RELA,degree_of,expanded_form,Degree of
@@ -1202,6 +1211,8 @@ RELA,has_access_instrument,expanded_form,Has access instrument
 RELA,has_access_instrument,rela_inverse,access_instrument_of
 RELA,has_access,expanded_form,Has access
 RELA,has_access,rela_inverse,access_of
+RELA,has_action_guidance,expanded_form,Has action guidance
+RELA,has_action_guidance,rela_inverse,is_action_guidance_for
 RELA,has_active_ingredient,expanded_form,Has active ingredient
 RELA,has_active_ingredient,rela_inverse,active_ingredient_of
 RELA,has_active_metabolites,expanded_form,Has active metabolites
@@ -1214,6 +1225,8 @@ RELA,has_adherent,expanded_form,Has adherent
 RELA,has_adherent,rela_inverse,adheres_to
 RELA,has_adjustment,expanded_form,Has adjustment
 RELA,has_adjustment,rela_inverse,adjustment_of
+RELA,has_aggregation_view,expanded_form,Has aggregation view
+RELA,has_aggregation_view,rela_inverse,is_aggregation_view_of
 RELA,has_alias,expanded_form,Has alias
 RELA,has_alias,rela_inverse,alias_of
 RELA,has_allelic_variant,expanded_form,Has allelic variant
@@ -1222,6 +1235,8 @@ RELA,has_alternative,expanded_form,Has alternative
 RELA,has_alternative,rela_inverse,alternative_of
 RELA,has_answer,expanded_form,has answer
 RELA,has_answer,rela_inverse,answer_to
+RELA,has_approach_guidance,expanded_form,Has approach guidance
+RELA,has_approach_guidance,rela_inverse,is_approach_guidance_for
 RELA,has_approach,expanded_form,Has approach
 RELA,has_approach,rela_inverse,approach_of
 RELA,has_arterial_supply,expanded_form,Has arterial supply
@@ -1248,7 +1263,7 @@ RELA,has_british_form,expanded_form,Has British form
 RELA,has_british_form,rela_inverse,british_form_of
 RELA,has_causative_agent,expanded_form,Has causative agent
 RELA,has_causative_agent,rela_inverse,causative_agent_of
-RELA,has_cdrh_parent,expanded_form,has cdrh parent 
+RELA,has_cdrh_parent,expanded_form,has cdrh parent
 RELA,has_cdrh_parent,rela_inverse,parent_is_cdrh
 RELA,has_cell_connecting_part,expanded_form,Has cell connecting part
 RELA,has_cell_connecting_part,rela_inverse,cell_connecting_part_of
@@ -1296,6 +1311,8 @@ RELA,has_course,expanded_form,Has course
 RELA,has_course,rela_inverse,course_of
 RELA,has_data_element,expanded_form,has data element
 RELA,has_data_element,rela_inverse,data_element_of
+RELA,has_defining_characteristic,expanded_form,Has defining characteristic
+RELA,has_defining_characteristic,rela_inverse,defining_characteristic_of
 RELA,has_definitional_manifestation,expanded_form,Has definitional manifestation
 RELA,has_definitional_manifestation,rela_inverse,definitional_manifestation_of
 RELA,has_degree,expanded_form,Has degree
@@ -1326,6 +1343,8 @@ RELA,has_epithelial_cell_shape,expanded_form,Has epithelial cell shape
 RELA,has_epithelial_cell_shape,rela_inverse,epithelial_cell_shape_of
 RELA,has_evaluation,expanded_form,Has evaluation
 RELA,has_evaluation,rela_inverse,evaluation_of
+RELA,has_exam,expanded_form,Has exam
+RELA,has_exam,rela_inverse,is_exam_for
 RELA,has_expanded_form,expanded_form,Has expanded form
 RELA,has_expanded_form,rela_inverse,expanded_form_of
 RELA,has_expected_outcome,expanded_form,Has expected outcome
@@ -1354,6 +1373,12 @@ RELA,has_gene_product_element,expanded_form,has gene product element
 RELA,has_gene_product_element,rela_inverse,gene_product_is_element_in_pathway
 RELA,has_germ_origin,expanded_form,Has germ origin
 RELA,has_germ_origin,rela_inverse,germ_origin_of
+RELA,has_given_pharmaceutical_substance,expanded_form,Has given pharmaceutical substance
+RELA,has_given_pharmaceutical_substance,rela_inverse,is_given_pharmaceutical_substance_for
+RELA,has_imaged_location,expanded_form,Has imaged location
+RELA,has_imaged_location,rela_inverse,is_imaged_location_for
+RELA,has_imaging_focus,expanded_form,Has imaging focus
+RELA,has_imaging_focus,rela_inverse,is_imaging_focus_of
 RELA,has_inactive_ingredient,expanded_form,Has Inactive Ingredient
 RELA,has_inactive_ingredient,rela_inverse,inactive_ingredient_of
 RELA,has_indirect_device,expanded_form,Has indirect device
@@ -1378,6 +1403,10 @@ RELA,has_interpretation,expanded_form,Has interpretation
 RELA,has_interpretation,rela_inverse,interpretation_of
 RELA,has_lab_number,expanded_form,Has lab number
 RELA,has_lab_number,rela_inverse,lab_number_of
+RELA,has_lateral_anatomic_location,expanded_form,Has lateral anatomic location
+RELA,has_lateral_anatomic_location,rela_inverse,is_lateral_anatomic_location_of
+RELA,has_lateral_location_presence,expanded_form,Has lateral location presence
+RELA,has_lateral_location_presence,rela_inverse,is_presence_of_lateral_location
 RELA,has_laterality,expanded_form,Has laterality
 RELA,has_laterality,rela_inverse,laterality_of
 RELA,has_life_circumstance,expanded_form,Has life circumstance
@@ -1400,6 +1429,10 @@ RELA,has_member,expanded_form,Has member
 RELA,has_member,rela_inverse,member_of
 RELA,has_method,expanded_form,Has method
 RELA,has_method,rela_inverse,method_of
+RELA,has_modality_subtype,expanded_form,Has modality subtype
+RELA,has_modality_subtype,rela_inverse,is_modality_subtype_for
+RELA,has_modality,expanded_form,Has modality
+RELA,has_modality,rela_inverse,is_modality_for
 RELA,has_multi_level_category,expanded_form,Has multi-level category
 RELA,has_multi_level_category,rela_inverse,has_single_level_category
 RELA,has_multipart,expanded_form,Has multipart
@@ -1414,6 +1447,8 @@ RELA,has_nerve_supply,expanded_form,Has nerve supply
 RELA,has_nerve_supply,rela_inverse,nerve_supply_of
 RELA,has_nichd_parent,expanded_form,has nichd parent
 RELA,has_nichd_parent,rela_inverse,parent_is_nichd
+RELA,has_object_guidance,expanded_form,Has object guidance
+RELA,has_object_guidance,rela_inverse,is_object_guidance_for
 RELA,has_occurrence,expanded_form,Has occurrence
 RELA,has_occurrence,rela_inverse,occurs_in
 RELA,has_onset,expanded_form,Has onset
@@ -1436,6 +1471,10 @@ RELA,has_pathological_process,expanded_form,Has pathological process
 RELA,has_pathological_process,rela_inverse,pathological_process_of
 RELA,has_permuted_term,expanded_form,Has permuted term
 RELA,has_permuted_term,rela_inverse,permuted_term_of
+RELA,has_pharmaceutical_route,expanded_form,Has_pharmaceutical_route
+RELA,has_pharmaceutical_route,rela_inverse,is_pharmaceutical_route_for
+RELA,has_pharmaceutical_timing,expanded_form,Has pharmaceutical timing
+RELA,has_pharmaceutical_timing,rela_inverse,is_pharmaceutical_timing_of
 RELA,has_pharmacokinetics,expanded_form,Has pharmacokinetics
 RELA,has_pharmacokinetics,rela_inverse,pharmacokinetics_of
 RELA,has_phenotype,expanded_form,Has phenotype
@@ -1452,6 +1491,8 @@ RELA,has_plain_text_form,expanded_form,Has plain text form
 RELA,has_plain_text_form,rela_inverse,plain_text_form_of
 RELA,has_precise_ingredient,expanded_form,Has precise ingredient
 RELA,has_precise_ingredient,rela_inverse,precise_ingredient_of
+RELA,has_presence_guidance,expanded_form,Has presence guidance
+RELA,has_presence_guidance,rela_inverse,is_presence_guidance_for
 RELA,has_primary_segmental_supply,expanded_form,Has primary segmental supply
 RELA,has_primary_segmental_supply,rela_inverse,primary_segmental_supply_of
 RELA,has_print_name,expanded_form,Has print name
@@ -1478,10 +1519,14 @@ RELA,has_recipient_category,expanded_form,Has recipient category
 RELA,has_recipient_category,rela_inverse,recipient_category_of
 RELA,has_regional_part,expanded_form,Has regional part
 RELA,has_regional_part,rela_inverse,regional_part_of
+RELA,has_related_factor,expanded_form,Has related factor
+RELA,has_related_factor,rela_inverse,related_factor_of
 RELA,has_result,expanded_form,Has result
 RELA,has_result,rela_inverse,result_of
 RELA,has_revision_status,expanded_form,Has revision status
 RELA,has_revision_status,rela_inverse,revision_status_of
+RELA,has_risk_factor,expanded_form,Has risk factor
+RELA,has_risk_factor,rela_inverse,risk_factor_of
 RELA,has_route_of_administration,expanded_form,Has route of administration
 RELA,has_route_of_administration,rela_inverse,route_of_administration_of
 RELA,has_salt_form,expanded_form,has salt form
@@ -1614,6 +1659,12 @@ RELA,is_abnormality_of_gene_product,expanded_form,is abnormality of gene product
 RELA,is_abnormality_of_gene_product,rela_inverse,gene_product_has_abnormality
 RELA,is_abnormality_of_gene,expanded_form,is abnormality of gene
 RELA,is_abnormality_of_gene,rela_inverse,gene_has_abnormality
+RELA,is_action_guidance_for,expanded_form,Is action guidance for
+RELA,is_action_guidance_for,rela_inverse,has_action_guidance
+RELA,is_aggregation_view_of,expanded_form,Is aggregation view of
+RELA,is_aggregation_view_of,rela_inverse,has_aggregation_view
+RELA,is_approach_guidance_for,expanded_form,Is approach guidance for
+RELA,is_approach_guidance_for,rela_inverse,has_approach_guidance
 RELA,is_associated_anatomic_site_of,expanded_form,is associated anatomic site of
 RELA,is_associated_anatomic_site_of,rela_inverse,disease_has_associated_anatomic_site
 RELA,is_associated_anatomy_of_gene_product,expanded_form,is associated anatomy of gene product
@@ -1630,12 +1681,22 @@ RELA,is_component_of_chemotherapy_regimen,expanded_form,is component of chemothe
 RELA,is_component_of_chemotherapy_regimen,rela_inverse,chemotherapy_regimen_has_component
 RELA,is_cytogenetic_abnormality_of_disease,expanded_form,is cytogenetic abnormality of disease
 RELA,is_cytogenetic_abnormality_of_disease,rela_inverse,disease_has_cytogenetic_abnormality
+RELA,is_exam_for,expanded_form,Is exam for
+RELA,is_exam_for,rela_inverse,has_exam
 RELA,is_finding_of_disease,expanded_form,is finding of disease
 RELA,is_finding_of_disease,rela_inverse,disease_has_finding
+RELA,is_given_pharmaceutical_substance_for,expanded_form,Is given pharmaceutical substance for
+RELA,is_given_pharmaceutical_substance_for,rela_inverse,has_given_pharmaceutical_substance
 RELA,is_grade_of_disease,expanded_form,is grade of disease
 RELA,is_grade_of_disease,rela_inverse,disease_is_grade
+RELA,is_imaged_location_for,expanded_form,Is imaged location for
+RELA,is_imaged_location_for,rela_inverse,has_imaged_location
+RELA,is_imaging_focus_of,expanded_form,Is imaging focus of
+RELA,is_imaging_focus_of,rela_inverse,has_imaging_focus
 RELA,is_interpreted_by,expanded_form,Is interpreted by
 RELA,is_interpreted_by,rela_inverse,interprets
+RELA,is_lateral_anatomic_location_of,expanded_form,Is lateral anatomic location of
+RELA,is_lateral_anatomic_location_of,rela_inverse,has_lateral_anatomic_location
 RELA,is_location_of_anatomic_structure,expanded_form,is location of anatomic structure
 RELA,is_location_of_anatomic_structure,rela_inverse,anatomic_structure_has_location
 RELA,is_location_of_biological_process,expanded_form,is location of biological process
@@ -1646,6 +1707,10 @@ RELA,is_mechanism_of_action_of_chemical_or_drug,expanded_form,is mechanism of ac
 RELA,is_mechanism_of_action_of_chemical_or_drug,rela_inverse,chemical_or_drug_has_mechanism_of_action
 RELA,is_metastatic_anatomic_site_of_disease,expanded_form,is metastatic anatomic site of disease
 RELA,is_metastatic_anatomic_site_of_disease,rela_inverse,disease_has_metastatic_anatomic_site
+RELA,is_modality_for,expanded_form,Is modality for
+RELA,is_modality_for,rela_inverse,has_modality
+RELA,is_modality_subtype_for,expanded_form,Is modality subtype for
+RELA,is_modality_subtype_for,rela_inverse,has_modality_subtype
 RELA,is_molecular_abnormality_of_disease,expanded_form,is molecular abnormality of disease
 RELA,is_molecular_abnormality_of_disease,rela_inverse,disease_has_molecular_abnormality
 RELA,is_normal_cell_origin_of_disease,expanded_form,is normal cell origin of disease
@@ -1666,12 +1731,22 @@ RELA,is_not_normal_tissue_origin_of_disease,expanded_form,is not normal tissue o
 RELA,is_not_normal_tissue_origin_of_disease,rela_inverse,disease_excludes_normal_tissue_origin
 RELA,is_not_primary_anatomic_site_of_disease,expanded_form,is not primary anatomic site of disease
 RELA,is_not_primary_anatomic_site_of_disease,rela_inverse,disease_excludes_primary_anatomic_site
+RELA,is_object_guidance_for,expanded_form,Is object guidance for
+RELA,is_object_guidance_for,rela_inverse,has_object_guidance
 RELA,is_organism_source_of_gene_product,expanded_form,is organism source of gene product
 RELA,is_organism_source_of_gene_product,rela_inverse,gene_product_has_organism_source
+RELA,is_pharmaceutical_route_for,expanded_form,Is pharmaceutical route for
+RELA,is_pharmaceutical_route_for,rela_inverse,has_pharmaceutical_route
+RELA,is_pharmaceutical_timing_of,expanded_form,Is pharmaceutical timing of
+RELA,is_pharmaceutical_timing_of,rela_inverse,has_pharmaceutical_timing
 RELA,is_physical_location_of_gene,expanded_form,is physical location of gene
 RELA,is_physical_location_of_gene,rela_inverse,gene_has_physical_location
 RELA,is_physiologic_effect_of_chemical_or_drug,expanded_form,is physiologic effect of chemical or drug
 RELA,is_physiologic_effect_of_chemical_or_drug,rela_inverse,chemical_or_drug_has_physiologic_effect
+RELA,is_presence_guidance_for,expanded_form,Is presence guidance for
+RELA,is_presence_guidance_for,rela_inverse,has_presence_guidance
+RELA,is_presence_of_lateral_location,expanded_form,Is presence of lateral location
+RELA,is_presence_of_lateral_location,rela_inverse,has_lateral_location_presence
 RELA,is_primary_anatomic_site_of_disease,expanded_form,is primary anatomic site of disease
 RELA,is_primary_anatomic_site_of_disease,rela_inverse,disease_has_primary_anatomic_site
 RELA,is_property_or_attribute_of_eo_disease,expanded_form,is property or attribute of eo disease
@@ -1946,6 +2021,8 @@ RELA,regulated_by,expanded_form,Regulated by
 RELA,regulated_by,rela_inverse,regulates
 RELA,regulates,expanded_form,Regulates
 RELA,regulates,rela_inverse,regulated_by
+RELA,related_factor_of,expanded_form,Related factor of
+RELA,related_factor_of,rela_inverse,has_related_factor
 RELA,related_to,expanded_form,Is Related to
 RELA,related_to,rela_inverse,related_to
 RELA,replaced_by,expanded_form,Replaced by
@@ -1956,6 +2033,8 @@ RELA,result_of,expanded_form,Result of
 RELA,result_of,rela_inverse,has_result
 RELA,revision_status_of,expanded_form,Revision status of
 RELA,revision_status_of,rela_inverse,has_revision_status
+RELA,risk_factor_of,expanded_form,Risk factor of
+RELA,risk_factor_of,rela_inverse,has_risk_factor
 RELA,role_has_domain,expanded_form,role has domain
 RELA,role_has_domain,rela_inverse,kind_is_domain_of
 RELA,role_has_parent,expanded_form,role has parent
@@ -2461,6 +2540,12 @@ TTY,LA,expanded_form,LOINC answer
 TTY,LA,tty_class,preferred
 TTY,LC,expanded_form,Long common name
 TTY,LC,tty_class,preferred
+TTY,LLTJKN1,expanded_form,Japanese Lower Level Term (kana1)
+TTY,LLTJKN1,tty_class,entry_term
+TTY,LLTJKN,expanded_form,Japanese Lower Level Term (kana)
+TTY,LLTJKN,tty_class,entry_term
+TTY,LLT,expanded_form,Lower Level Term
+TTY,LLT,tty_class,entry_term
 TTY,LN,expanded_form,LOINC official fully specified name
 TTY,LN,tty_class,preferred
 TTY,LO,expanded_form,Obsolete official fully specified name
@@ -2471,12 +2556,6 @@ TTY,LPN,expanded_form,LOINC parts name
 TTY,LPN,tty_class,preferred
 TTY,LS,expanded_form,Expanded system/sample type (The expanded version was created for the Metathesaurus and includes the full name of some abbreviations.)
 TTY,LS,tty_class,expanded
-TTY,LTJKN1,expanded_form,Japanese Lower Level Term (kana1)
-TTY,LTJKN1,tty_class,entry_term
-TTY,LTJKN,expanded_form,Japanese Lower Level Term (kana)
-TTY,LTJKN,tty_class,entry_term
-TTY,LT,expanded_form,Lower Level Term
-TTY,LT,tty_class,entry_term
 TTY,LV,expanded_form,Lexical variant
 TTY,LV,tty_class,synonym
 TTY,MD,expanded_form,CCS multi-level diagnosis categories
@@ -2500,8 +2579,8 @@ TTY,MTH_CHN,tty_class,synonym
 TTY,MTH_CN,expanded_form,"MTH Component, with abbreviations expanded."
 TTY,MTH_CN,tty_class,expanded
 TTY,MTH_CN,tty_class,preferred
-TTY,MTH_ET,expanded_form,Metathesaurus entry term
-TTY,MTH_ET,tty_class,entry_term
+TTY,NA,expanded_form,Metathesaurus entry term
+TTY,NA,tty_class,entry_term
 TTY,MTH_FN,expanded_form,MTH Full form of descriptor
 TTY,MTH_FN,tty_class,preferred
 TTY,MTH_HG,expanded_form,MTH High Level Group Term
@@ -2515,6 +2594,8 @@ TTY,MTH_ID,tty_class,preferred
 TTY,MTH_IS,expanded_form,Metathesaurus-supplied form of obsolete synonym
 TTY,MTH_IS,tty_class,obsolete
 TTY,MTH_IS,tty_class,synonym
+TTY,MTH_LLT,expanded_form,MTH Lower Level Term
+TTY,MTH_LLT,tty_class,entry_term
 TTY,MTH_LN,expanded_form,MTH Official fully specified name with expanded abbreviations
 TTY,MTH_LN,tty_class,expanded
 TTY,MTH_LN,tty_class,preferred
@@ -2522,8 +2603,6 @@ TTY,MTH_LO,expanded_form,MTH Expanded LOINC obsolete fully specified name
 TTY,MTH_LO,tty_class,expanded
 TTY,MTH_LO,tty_class,obsolete
 TTY,MTH_LO,tty_class,synonym
-TTY,MTH_LT,expanded_form,MTH Lower Level Term
-TTY,MTH_LT,tty_class,entry_term
 TTY,MTH_LV,expanded_form,MTH lexical variant
 TTY,MTH_LV,tty_class,synonym
 TTY,MTH_OAF,expanded_form,Metathesaurus-supplied form of obsolete active fully specified name
@@ -2579,8 +2658,8 @@ TTY,MV,expanded_form,Multi-level procedure category
 TTY,MV,tty_class,preferred
 TTY,N1,expanded_form,Chemical Abstracts Service Type 1 name of a chemical
 TTY,N1,tty_class,synonym
-TTY,NA,expanded_form,Name aliases
-TTY,NA,tty_class,preferred
+TTY,,expanded_form,Name aliases
+TTY,,tty_class,preferred
 TTY,NM,expanded_form,Name of Supplementary Concept
 TTY,NM,tty_class,preferred
 TTY,NPT,expanded_form,HL7 non-preferred for language term
