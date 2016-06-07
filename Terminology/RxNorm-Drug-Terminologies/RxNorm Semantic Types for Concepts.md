@@ -10,8 +10,8 @@ All RxNorm concepts have at least one entry in this file. Many have more than on
 
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-05-02
-- Version: 2016.05.02
+- Date Modified: 2016-06-06
+- Version: 2016.06.06
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
