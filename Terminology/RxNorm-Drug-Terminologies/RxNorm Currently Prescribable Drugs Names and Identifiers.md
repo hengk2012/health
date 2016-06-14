@@ -26,7 +26,7 @@ RxNorm is creating duplicates of source asserted atoms, which carry multiple mea
 - Source: National Library of Medicine (NLM)
 - Source License URL: https://uts.nlm.nih.gov/license.html
 - Source License Requirements: Reporting Requirements
-- Source Citation: This release of RxNorm is consistent with the 2015AB UMLS Metathesaurus release.
+- Source Citation: N/A
 - Keywords:
  - Over-the-counter drugs names
  - Currently prescribable drugs names
