@@ -19,7 +19,7 @@ RxNorm reflects and preserves the meanings, drug names, attributes, and relation
 - Source: National Library of Medicine (NLM)
 - Source License URL: https://uts.nlm.nih.gov/license.html
 - Source License Requirements: Reporting Requirements
-- Source Citation: This release of RxNorm is consistent with the 2015AB UMLS Metathesaurus release.
+- Source Citation: N/A
 - Keywords:
   - RXNorm data sources
   - drug terminologies
