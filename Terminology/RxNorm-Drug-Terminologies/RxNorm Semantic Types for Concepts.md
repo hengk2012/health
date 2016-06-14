@@ -18,7 +18,7 @@ All RxNorm concepts have at least one entry in this file. Many have more than on
 - Source: National Library of Medicine (NLM)
 - Source License URL: https://uts.nlm.nih.gov/license.html
 - Source License Requirements: Reporting Requirements
-- Source Citation: This release of RxNorm is consistent with the 2015AB UMLS Metathesaurus release.
+- Source Citation: N/A
 - Keywords: 
  - Semantic type
  - Concept
