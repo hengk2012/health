@@ -167,11 +167,10 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - Type: String
   - Maximum Length: 40
   
-- Provider_Business_Mailing_Address_State_Code
+- Provider_Business_Mailing_Address_State_Name
   - US State Code
   - Type: String
-  - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
+  - Maximum Length: 100
   
 - Provider_Business_Mailing_Address_Postal_Code
   - Zip Code 
@@ -182,7 +181,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - Country Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/World/Country Codes and Names
   
 - Provider_Business_Mailing_Address_Telephone_Number
   - Telephone number 
@@ -209,11 +207,10 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - Type: String
   - Maximum Length: 40
   
-- Provider_Business_Practice_Location_Address_State_Code
+- Provider_Business_Practice_Location_Address_State_Name
   - US State Code
   - Type: String
-  - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
+  - Maximum Length: 100
   
 - Provider_Business_Practice_Location_Address_Postal_Code
   - Zip Code 
@@ -224,7 +221,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - Country Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/World/Country Codes and Names
   
 - Provider_Business_Practice_Location_Address_Telephone_Number
   - Telephone number 
@@ -307,7 +303,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_1
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -327,7 +322,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_2
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -347,7 +341,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_3
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -367,7 +360,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_4
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -387,7 +379,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_5
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -407,7 +398,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_6
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -427,7 +417,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_7
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -447,7 +436,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_8
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -467,7 +455,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_9
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -487,7 +474,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_10
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -507,7 +493,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_11
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -527,7 +512,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_12
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -547,7 +531,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_13
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -567,7 +550,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_14
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -587,7 +569,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Is_Healthcare_Provider_Primary_Taxonomy_15
   - true- The taxonomy is the primary taxonomy (there can be only one per NPI record),false- The taxonomy is not the primary taxonomy, null – Not answered
@@ -608,7 +589,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_1
   - Provider Identifier
@@ -630,7 +610,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_2
   - Provider Identifier
@@ -652,7 +631,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_3
   - Provider Identifier
@@ -674,7 +652,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_4
   - Provider Identifier
@@ -696,7 +673,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_5
   - Provider Identifier
@@ -718,7 +694,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_6
   - Provider Identifier
@@ -740,7 +715,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_7
   - Provider Identifier
@@ -762,7 +736,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_8
   - Provider Identifier
@@ -784,7 +757,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_9
   - Provider Identifier
@@ -806,7 +778,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_10
   - Provider Identifier
@@ -828,7 +799,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_11
   - Provider Identifier
@@ -850,7 +820,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_12
   - Provider Identifier
@@ -872,7 +841,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_13
   - Provider Identifier
@@ -894,7 +862,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_14
   - Provider Identifier
@@ -916,7 +883,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_15
   - Provider Identifier
@@ -938,7 +904,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_16
   - Provider Identifier
@@ -960,7 +925,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_17
   - Provider Identifier
@@ -982,7 +946,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_18
   - Provider Identifier
@@ -1004,7 +967,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_19
   - Provider Identifier
@@ -1026,7 +988,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_20
   - Provider Identifier
@@ -1048,7 +1009,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_21
   - Provider Identifier
@@ -1070,7 +1030,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_22
   - Provider Identifier
@@ -1092,7 +1051,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_23
   - Provider Identifier
@@ -1114,7 +1072,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_24
   - Provider Identifier
@@ -1136,7 +1093,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_25
   - Provider Identifier
@@ -1158,7 +1114,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_26
   - Provider Identifier
@@ -1180,7 +1135,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_27
   - Provider Identifier
@@ -1202,7 +1156,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_28
   - Provider Identifier
@@ -1224,7 +1177,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_29
   - Provider Identifier
@@ -1246,7 +1198,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_30
   - Provider Identifier
@@ -1268,7 +1219,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_31
   - Provider Identifier
@@ -1290,7 +1240,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_32
   - Provider Identifier
@@ -1312,7 +1261,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_33
   - Provider Identifier
@@ -1334,7 +1282,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_34
   - Provider Identifier
@@ -1356,7 +1303,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_35
   - Provider Identifier
@@ -1378,7 +1324,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_36
   - Provider Identifier
@@ -1400,7 +1345,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_37
   - Provider Identifier
@@ -1422,7 +1366,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_38
   - Provider Identifier
@@ -1444,7 +1387,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_39
   - Provider Identifier
@@ -1466,7 +1408,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_40
   - Provider Identifier
@@ -1488,7 +1429,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_41
   - Provider Identifier
@@ -1510,7 +1450,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_42
   - Provider Identifier
@@ -1532,7 +1471,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_43
   - Provider Identifier
@@ -1554,7 +1492,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_44
   - Provider Identifier
@@ -1576,7 +1513,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_45
   - Provider Identifier
@@ -1598,7 +1534,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_46
   - Provider Identifier
@@ -1620,7 +1555,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_47
   - Provider Identifier
@@ -1642,7 +1576,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_48
   - Provider Identifier
@@ -1664,7 +1597,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_49
   - Provider Identifier
@@ -1686,7 +1618,6 @@ Note: CMS will mask SSNs, IRS ITINs, and EINs when these numbers are entered in 
   - US State Code
   - Type: String
   - Maximum Length: 2
-  - Reference: Places/USA/US States and Territories
   
 - Other_Provider_Identifier_Issuer_50
   - Provider Identifier
