@@ -21,7 +21,7 @@ When a concept is retired because it was created as the result of an acknowledge
 - Source: National Library of Medicine (NLM)
 - Source License URL: https://uts.nlm.nih.gov/license.html
 - Source License Requirements: Reporting Requirements
-- Source Citation: This release of RxNorm is consistent with the 2015AB UMLS Metathesaurus release.
+- Source Citation: N/A
 - Keywords: 
  - History information about RxNorm concepts
  - Data history
