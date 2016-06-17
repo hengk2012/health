@@ -9,7 +9,7 @@ The NDC Directory contains ONLY information on final marketed drugs submitted to
 ## Facts
 - Date Created: 2012
 - Date Modified: 2016-06-14
-- Version: 2016.06
+- Version: 2016.06.14
 - Update Frequency: Daily
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
