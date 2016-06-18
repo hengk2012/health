@@ -10,7 +10,7 @@ The dataset provides information about changes to the concept_id (RXCUI) for ato
 ## Facts
 - Date Created: 2004-11
 - Date Modified: 2016-06-06
-- Version: 2016.06.06
+- Version: 2016.06
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
