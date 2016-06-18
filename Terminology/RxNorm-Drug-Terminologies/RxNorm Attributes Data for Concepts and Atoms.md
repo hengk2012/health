@@ -16,7 +16,7 @@ The quantity factor is stored as an attribute as the value of the Attribute_Name
 ## Facts
 - Date Created: 2004-11
 - Date Modified: 2016-06-06
-- Version: 2016.06.06
+- Version: 2016.06
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
