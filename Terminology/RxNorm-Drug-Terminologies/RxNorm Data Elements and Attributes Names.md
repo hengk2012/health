@@ -10,7 +10,7 @@ There is exactly one row in this table for each allowed value of selected data e
 
 ## Facts
 - Date Created: 2004-11
-- Date Modified: 2016-06-06
+- Date Modified: 2016-04-06
 - Version: 2016.06
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
