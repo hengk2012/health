@@ -12,7 +12,7 @@ RxNorm reflects and preserves the meanings, drug names, attributes, and relation
 ## Facts
 - Date Created: 2004-11
 - Date Modified: 2016-06-06
-- Version: 2016.06.06
+- Version: 2016.06
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
