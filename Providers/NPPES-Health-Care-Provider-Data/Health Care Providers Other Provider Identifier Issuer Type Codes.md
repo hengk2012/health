@@ -9,10 +9,10 @@ Corresponding Fields in the “Health care providers NPI data” dataset:
 
 ## Facts
 - Date Created: 2007-09
-- Date Modified: 2016-05-10
-- Version: 2016.05
+- Date Modified: 2016-06-14
+- Version: 2016.06
 - Update Frequency: Monthly
-- Temporal Coverage: 2005-05 to 2016-05
+- Temporal Coverage: 2005-05 to 2016-06
 - Spatial Coverage: United States
 - Source: Centers of Medicare and Medicaid Services (CMS)
 - Source License URL: N/A
