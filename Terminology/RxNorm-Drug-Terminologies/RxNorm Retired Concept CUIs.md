@@ -14,7 +14,7 @@ When a concept is retired because it was created as the result of an acknowledge
 ## Facts
 - Date Created: 2004-11
 - Date Modified: 2016-06-06
-- Version: 2016.06.06
+- Version: 2016.06
 - Update Frequency: Monthly
 - Temporal Coverage: N/A
 - Spatial Coverage: United States
