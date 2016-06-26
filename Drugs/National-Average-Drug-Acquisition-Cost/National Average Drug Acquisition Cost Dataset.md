@@ -12,8 +12,8 @@ The source of pharmacy survey data used to calculate the NADAC. ‘ C/I’ indic
 
 ## Facts
 - Date Created: 2013-11
-- Date Modified: 2016-06-15
-- Version: 2016.06.15
+- Date Modified: 2016-06-22
+- Version: 2016.06.22
 - Update Frequency: Weekly
 - Temporal Coverage: 2013-09 to 2016-05-25
 - Spatial Coverage: United States
