@@ -11,7 +11,7 @@ The Other changes (e.g. NDC additions and terminations) to the NADAC file are no
 
 ## Facts
 - Date Created: 2013-11
-- Date Modified: 2016-06-01
+- Date Modified: 2016-06-22
 - Version: 2016.06.22
 - Update Frequency: Weekly
 - Temporal Coverage: 2013-11 to 2016-06-22
