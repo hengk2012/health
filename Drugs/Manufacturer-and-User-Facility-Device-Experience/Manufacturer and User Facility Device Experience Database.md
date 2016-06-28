@@ -9,10 +9,10 @@ The dataset contains 75 fields including a MDR Report key,the Report Number and 
 
 ## Facts
 - Date Created: 2010
-- Date Modified: 2016-06-27
-- Version: 2016.06.27
+- Date Modified: 2016-06-28
+- Version: 2016.06.28
 - Update Frequency: Weekly
-- Temporal Coverage: 1991 to 2016-06-27
+- Temporal Coverage: 1991 to 2016-06-28
 - Spatial Coverage: USA
 - Source: U.S. Food and Drug Administration (FDA)
 - Source License URL: N/A
