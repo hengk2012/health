@@ -1,255 +1,255 @@
 # Manufacturer and User Facility Device Experience Database
 
 ## Summary
-MAUDE data represents reports of adverse events involving medical devices the datasets consist of voluntary reports since June 1993, user facility reports since 1991, distributor reports since 1993, and manufacturer reports since August 1996.
+MAUDE data represents Reports of adverse Events involving medical Devices the datasets consist of voluntary Reports since June 1993, User facility Reports since 1991, Distributor Reports since 1993, and Manufacturer Reports since August 1996.
 
 ## Description
-Manufacturer and User Facility Device Experience Database represents reports of adverse events involving medical devices.  
-The dataset contains 75 fields including a MDR Report key,the Report Number and and the date of the event.
+Manufacturer and User Facility Device Experience Database represents Reports of adverse Events involving medical Devices.  
+The dataset contains 75 fields including a MDR Report key,the Report Number and and the Date of the Event.
 
 ## Facts
 - Date Created: 2010
-- Date Modified: 2016-06-28
+- Date Modified: 2016-06-01
 - Version: 2016.06.28
-- Update Frequency: Weekly
-- Temporal Coverage: 1991 to 2016-06-28
+- UpDate Frequency: Weekly
+- Temporal Coverage: 1991 to 2016-06-01
 - Spatial Coverage: USA
 - Source: U.S. Food and Drug Administration (FDA)
 - Source License URL: N/A
-- Source License Requirements: Open for commercial use
+- Source License Requirements: Open for commercial Use
 - Source Citation: N/A 
 - Keywords: 
  - Maude
  - Device Experience 
 - Other Titles
- - Medical devices adverse events
+ - Medical Devices adverse Events
  - FDA MAUDE Dataset
 
 ## Schema
-- MDR_REPORT_KEY
+- MDR_Report_Key
   - MDR Report Key
   - Type: String
   - Required
 
-- EVENT_KEY
+- Event_Key
   - Event Key
   - Type: String
 
-- REPORT_NUMBER
+- Report_Number
   - Report Number
   - Type: String
   - Required
 
-- REPORT_SOURCE_CODE
+- Report_Source_Code
   - Report Source Code
   - Type: String
   - Values: D, M, P, U
   - Required
 
-- Is_MANUFACTURER_LINK_FLAG_
-  - Manufacturer Link Flag (internal information flag)
+- Is_Manufacturer_Link_Flag_
+  - Manufacturer Link Flag (internal information Flag)
   - Type: Boolean
   - Required
 
-- NUMBER_DEVICES_IN_EVENT
+- Number_Devices_In_Event
   - Number Devices in Event
   - Type: String
 
-- NUMBER_PATIENTS_IN_EVENT
+- Number_Patients_In_Event
   - Number Patient in Event
   - Type: String
 
-- DATE_RECEIVED
-  - Date Received
+- Received_Date
+  - Received Date
   - Type: Date
   - Required
 
-- Is_ADVERSE_EVENT_FLAG
+- Is_Adverse_Event_Flag
   - Adverse Event Flag
   - Type: Boolean
 
-- Is_PRODUCT_PROBLEM_FLAG
+- Is_Product_Problem_Flag
   - Product Problem Flag
   - Type: Boolean
 
-- DATE_REPORT
-  - Date Report
+- Date_Report
+  - Report Date
   - Type: Date
 
-- DATE_OF_EVENT
+- Event_Date
   - Date of Event
   - Type: Date 
 
-- REPROCESSED_AND_REUSED_FLAG
+- Reprocessed_And_Reused_Flag
   - Single Use Flag (Reprocessor Flag)
   - Type: String
   - Values: Y, N, I, *
 
-- REPORTER_OCCUPATION_CODE
+- Reporter_Occupation_Code
   - Reporter Occupation Code
   - Type: String
 
-- HEALTH_PROFESSIONAL
+- Health_Professional
   - Health Professional
   - Type: String
   - Values: Y, N, I, *
 
-- INITIAL_REPORT_TO_FDA
+- Initial_Report_To_FDA
   - Initial Report to FDA
   - Type: String
   - Values: Y, N, I, *, U
 
-- DATE_FACILITY_AWARE
+- Date_Facility_Aware
   - Date Facility Aware 
   - Type: String
 
-- REPORT_DATE
+- Report_Date
   - Report Date
   - Type: Date
 
-- REPORT_TO_FDA
+- Report_To_FDA
   - Report to FDA
   - Type: String
   - Values: Y, N, I, *
   - Required
 
-- DATE_REPORT_TO_FDA
+- Date_Report_To_FDA
   - Date Report to FDA
   - Type: Date
 
-- EVENT_LOCATION
+- Event_Location
   - Event Location Code Key
   - Type: String
   - Required
 
-- DATE_REPORT_TO_MANUFACTURER
+- Date_Report_To_Manufacturer
   - Date Report to Manufacturer
   - Type: Date
 
-- MANUFACTURER_CONTACT_T_NAME
+- Manufacturer_Contact_T_Name
   - Manufacturer Contact Title Name
   - Type: String
 
-- MANUFACTURER_CONTACT_F_NAME
+- Manufacturer_Contact_F_Name
   - Manufacturer Contact Title First Name
   - Type: String
 
-- MANUFACTURER_CONTACT_L_NAME
+- Manufacturer_Contact_L_Name
   - Manufacturer Contact Title Last Name
   - Type: String
 
-- MANUFACTURER_CONTACT_STREET_1
+- Manufacturer_Contact_Street_1
   - Manufacturer Contact Street 1
   - Type: String
 
-- MANUFACTURER_CONTACT_STREET_2
+- Manufacturer_Contact_Street_2
   - Manufacturer Contact Street 2
   - Type: String
 
-- MANUFACTURER_CONTACT_CITY
+- Manufacturer_Contact_City
   - Manufacturer Contact City
   - Type: String
 
-- MANUFACTURER_CONTACT_STATE
+- Manufacturer_Contact_State
   - Manufacturer Contact State Code
   - Type: String
 
-- MANUFACTURER_CONTACT_ZIP_CODE
+- Manufacturer_Contact_Zip_Code
   - Manufacturer Contact Zip Code
   - Type: String
 
-- MANUFACTURER_CONTACT_ZIP_EXT
+- Manufacturer_Contact_Zip_Ext
   - Manufacturer Contact Zip Code Ext
   - Type: String
 
-- MANUFACTURER_CONTACT_COUNTRY
+- Manufacturer_Contact_Country
   - Manufacturer Contact Country Code
   - Type: String
 
-- MANUFACTURER_CONTACT_POSTAL
+- Manufacturer_Contact_Postal
   - Manufacturer Contact Postal Code
   - Type: String
 
-- MANUFACTURER_CONTACT_AREA_CODE
+- Manufacturer_Contact_Area_Code
   - Manufacturer Contact Phone No Area Code
   - Type: String
 
-- MANUFACTURER_CONTACT_EXCHANGE
+- Manufacturer_Contact_Exchange
   - Manufacturer Contact Phone No Exchange
   - Type: String
 
-- MANUFACTURER_CONTACT_PHONE_NO
+- Manufacturer_Contact_Phone_No
   - Manufacturer Contact Phone No
   - Type: String
 
-- MANUFACTURER_CONTACT_EXTENSION
+- Manufacturer_Contact_Extension
   - Manufacturer Contact Phone No Ext
   - Type: Integer
   - Level: Nominal
 
-- MANUFACTURER_CONTACT_PCOUNTRY
+- Manufacturer_Contact_PCountry
   - Manufacturer Contact Phone No Country Code
   - Type: String
 
-- MANUFACTURER_CONTACT_PCITY
+- Manufacturer_Contact_PCity
   - Manufacturer Contact Phone No City Code
   - Type: String
 
-- MANUFACTURER_CONTACT_PLOCAL
+- Manufacturer_Contact_PLocal
   - Manufacturer Contact Phone No Local
   - Type: String
 
-- MANUFACTURER_G1_NAME
+- Manufacturer_G1_Name
   - Manufacturer G1 Name
   - Type: String
 
-- MANUFACTURER_G1_STREET_1
+- Manufacturer_G1_Street_1
   - Manufacturer G1 Street 1
   - Type: String
 
-- MANUFACTURER_G1_STREET_2
+- Manufacturer_G1_Street_2
   - Manufacturer G1 Street 2
   - Type: String
 
-- MANUFACTURER_G1_CITY
+- Manufacturer_G1_City
   - Manufacturer G1 City
   - Type: String
 
-- MANUFACTURER_G1_STATE_CODE
+- Manufacturer_G1_State_Code
   - Manufacturer G1 State Code
   - Type: String
 
-- MANUFACTURER_G1_ZIP_CODE
+- Manufacturer_G1_Zip_Code
   - Manufacturer G1 Zip Code
   - Type: String
 
-- MANUFACTURER_G1_ZIP_CODE_EXT
+- Manufacturer_G1_Zip_Code_Ext
   - Manufacturer G1 Zip Code Ext
   - Type: String
 
-- MANUFACTURER_G1_COUNTRY_CODE
+- Manufacturer_G1_Country_Code
   - Manufacturer G1 Country Code
   - Type: String
 
-- MANUFACTURER_G1_POSTAL_CODE
+- Manufacturer_G1_Postal_Code
   - Manufacturer G1 Postal Code
   - Type: String
 
-- DATE_MANUFACTURER_RECEIVED
+- Date_Manufacturer_Received
   - Date Manufacturer Received
   - Type: Date
 
-- DEVICE_DATE_OF_MANUFACTURE
-  - DEVICE_DATE_OF_MANUFACTURE
+- Device_Date_Of_Manufacture
+  - Device_Date Of Manufacture
   - Type: Date
 
-- SINGLE_USE_FLAG
+- Single_Use_Flag
   - Single Use Flag
   - Type: String
   - Values: Y, N, I, *
   - Required
 
-- REMEDIAL_ACTION
+- Remedial_Action
   - Remedial Action:  
     RC = Recall  
     RP = Repair  
@@ -262,18 +262,18 @@ The dataset contains 75 fields including a MDR Report key,the Report Number and 
     MA = Modification/Adjustment
   - Type: String
 
-- PREVIOUS_USE_CODE
+- Previous_Use_Code
   - Previous Use Code
   - Type: String
   - Values: I, N, R, U
   - Required
 
-- REMOVAL_CORRECTION_NUMBER
+- Removal_Correction_Number
   - Removal/Correction Number
   - Type: String
 
-- EVENT_TYPE
-  - Event type:  
+- Event_Type
+  - Event Type:  
     D = Death  
     IN = Injury  
     IL = Injury  
@@ -284,79 +284,79 @@ The dataset contains 75 fields including a MDR Report key,the Report Number and 
   - Type: String
   - Required
 
-- DISTRIBUTOR_NAME
+- Distributor_Name
   - Distributor Name
   - Type: String
 
-- DISTRIBUTOR_ADDRESS_1
+- Distributor_Address_1
   - Distributor Address line 1
   - Type: String
 
-- DISTRIBUTOR_ADDRESS_2
+- Distributor_Address_2
   - Distributor Address line 2
   - Type: String
 
-- DISTRIBUTOR_CITY
+- Distributor_City
   - Distributor City
   - Type: String
 
-- DISTRIBUTOR_STATE_CODE
+- Distributor_State_Code
   - Distributor State Code
   - Type: String
 
-- DISTRIBUTOR_ZIP_CODE
+- Distributor_Zip_Code
   - Distributor Zip Code
   - Type: String
 
-- DISTRIBUTOR_ZIP_CODE_EXT
+- Distributor_Zip_Code_Ext
   - Distributor Zip Code Ext
   - Type: String
 
-- REPORT_TO_MANUFACTURER
+- Report_To_Manufacturer
   - Report to Manufacturer
   - Type: String
 
-- MANUFACTURER_NAME
+- Manufacturer_Name
   - Manufacturer Name
   - Type: String
 
-- MANUFACTURER_ADDRESS_1
+- Manufacturer_Address_1
   - Manufacturer Address line 1
   - Type: String
 
-- MANUFACTURER_ADDRESS_2
+- Manufacturer_Address_2
   - Manufacturer Address line 2
   - Type: String
 
-- MANUFACTURER_CITY
+- Manufacturer_City
   - Manufacturer City
   - Type: String
 
-- MANUFACTURER_STATE_CODE
+- Manufacturer_State_Code
   - Manufacturer State Code
   - Type: String
 
-- MANUFACTURER_ZIP_CODE
+- Manufacturer_Zip_Code
   - Manufacturer Zip Code
   - Type: String
 
-- MANUFACTURER_ZIP_CODE_EXT
+- Manufacturer_Zip_Code_Ext
   - Manufacturer Zip Code Ext
   - Type: String
 
-- MANUFACTURER_COUNTRY_CODE
+- Manufacturer_COUNTRY_Code
   - Manufacturer Country Code
   - Type: String
 
-- MANUFACTURER_POSTAL_CODE
+- Manufacturer_Postal_Code
   - Manufacturer Postal Code
   - Type: String
 
-- TYPE_OF_REPORT
+- Type_Of_Report
   - Type of Report
   - Type: String
 
-- SOURCE_TYPE
+- Source_Type
   - Source Type:  
     00 Other  
     01 Foreign  
@@ -371,12 +371,12 @@ The dataset contains 75 fields including a MDR Report key,the Report Number and 
     * Invalid data  
   - Type: String
 
-- DATE_ADDED
+- Added_Date
   - Date Added
   - Type: Date
   - Required
 
-- DATE_CHANGED
+- Changed_Date
   - Date Changed
   - Type: Date
   - Required
