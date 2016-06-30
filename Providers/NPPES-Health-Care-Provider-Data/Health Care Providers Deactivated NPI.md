@@ -11,7 +11,7 @@ The FOIA-disclosable data for a health care provider (individual or organization
 
 ## Facts
 - Date Created: 2007-09
-- Date Modified: 2016-06-01
+- Date Modified: 2016-06-14
 - Version: 2016.06
 - Update Frequency: Monthly
 - Temporal Coverage: 2005-05 to 2016-06
