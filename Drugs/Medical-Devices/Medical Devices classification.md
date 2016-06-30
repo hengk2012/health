@@ -7,7 +7,7 @@ The Medical Devices Classification Database contains medical device names and as
 
 ## Facts
 - Date Created: 2014-06
-- Date Modified: 2016-06-30
+- Date Modified: 2016-06-01
 - Version: 2016.06.30
 - Update Frequency: weekly
 - Temporal Coverage: N/A
