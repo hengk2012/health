@@ -11,10 +11,10 @@ The Other changes (e.g. NDC additions and terminations) to the NADAC file are no
 
 ## Facts
 - Date Created: 2013-11
-- Date Modified: 2016-06-22
-- Version: 2016.06.22
+- Date Modified: 2016-06-29
+- Version: 2016.06.29
 - Update Frequency: Weekly
-- Temporal Coverage: 2013-11 to 2016-06-22
+- Temporal Coverage: 2013-11 to 2016-06-29
 - Spatial Coverage: United States
 - Source: US Food and Drug Administration (FDA)
 - Source License URL: N/A
