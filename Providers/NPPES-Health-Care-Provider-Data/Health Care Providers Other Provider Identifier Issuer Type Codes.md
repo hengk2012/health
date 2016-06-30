@@ -9,7 +9,7 @@ Corresponding Fields in the “Health care providers NPI data” dataset:
 
 ## Facts
 - Date Created: 2007-09
-- Date Modified: 2016-06-14
+- Date Modified: 2016-06-01
 - Version: 2016.06
 - Update Frequency: Monthly
 - Temporal Coverage: 2005-05 to 2016-06
