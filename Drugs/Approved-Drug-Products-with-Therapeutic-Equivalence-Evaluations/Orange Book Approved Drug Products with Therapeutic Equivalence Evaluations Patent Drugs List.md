@@ -10,10 +10,10 @@ The Orange Book Search was added to the FDA website October 31, 1997.
 
 ## Facts
 - Date Created: 1981
-- Date Modified: 2016-06-26
-- Version: 2016.6
+- Date Modified: 2016-04-01
+- Version: 2016.04
 - Update Frequency: Monthly
-- Temporal Coverage: 1981 to 2016-05
+- Temporal Coverage: 1981 to 2016-04
 - Spatial Coverage: United States
 - Source: U.S. Food and Drug Administration
 - Source License URL: N/A
