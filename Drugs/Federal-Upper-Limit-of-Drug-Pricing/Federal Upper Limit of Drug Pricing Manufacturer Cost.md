@@ -11,10 +11,10 @@ We published the draft Affordable Care Act FULs calculated in accordance with CM
 
 ## Facts
 - Date Created: N/A
-- Date Modified: 2016-06-26
-- Version: 2016.06
+- Date Modified: 2016-06-01
+- Version: 2016.05
 - Update Frequency: Monthly
-- Temporal Coverage: 2016
+- Temporal Coverage: 2016-03 to 2016-05
 - Spatial Coverage: USA
 - Source: Centers of Medicare and Medicaid Services
 - Source License URL: https://www.medicaid.gov/medicaid-chip-program-information/by-topics/benefits/prescription-drugs/federal-upper-limits.html
