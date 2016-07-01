@@ -11,7 +11,7 @@ We published the draft Affordable Care Act FULs calculated in accordance with CM
 
 ## Facts
 - Date Created: N/A
-- Date Modified: 2016-06-29
+- Date Modified: 2016-06-01
 - Version: 2016.06.29
 - Update Frequency: Monthly
 - Temporal Coverage: 2016-03 to 2016-06-29
